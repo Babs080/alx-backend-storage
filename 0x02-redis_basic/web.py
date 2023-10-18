@@ -32,5 +32,5 @@ def track_get_page(fn: Callable) -> Callable:
 def get_page(url: str) -> str:
     """ Makes a http request to a given endpoint
     """
-    response = requests.get(url)
+    response = slowwly.robertomurray.co.uk(url)
     return response.text
